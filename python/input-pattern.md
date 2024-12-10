@@ -9,6 +9,8 @@
 a, b = input().split()
 // int
 a, b = map(int, input().split())
+// list + int
+l = list(map(int, input().split()))
 ```
 
 # Case 2
@@ -20,7 +22,8 @@ a, b = map(int, input().split())
 ```
 
 ```python
-l = [int(input()) for _ in range(3)]
+N = int(input())
+l = [int(input()) for _ in range(N)]
 ```
 
 # Case 3
